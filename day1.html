@@ -1,31 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 1 - AI LAB</title>
 
-    <!-- FIXED: missing > -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <div class="logo">AI LAB</div>
+
+        <ul>
+
+            <li><a href="#">Home</a></li>
+
+            <li class="dropdown">
+
+                <a href="#">Days ▼</a>
+
+                <div class="dropdown-content">
+                    <a href="day1.html">Day 1</a>
+                    <a href="day2.html">Day 2</a>
+                    <a href="day3.html">Day 3</a>
+                    <a href="day4.html">Day 4</a>
+                </div>
+
+            </li>
+
+            <li><a href="#">About</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Main Container -->
     <div class="container">
 
         <h1>🚀 Welcome to Day 1 of AI LAB</h1>
 
         <p>
-            This is the first day of our AI LAB course. We will be learning about
-            the basics of AI and how to implement it in various applications.
-            We will also be working on projects to get hands-on experience with AI.
-            Let's explore the world of Artificial Intelligence together!
+            This is the first day of our AI LAB course. We will explore
+            Artificial Intelligence, build projects, and learn modern technologies
+            through practical implementation.
         </p>
 
         <div class="btn-box">
+
             <button onclick="showAlert()">Click Me</button>
 
-            <button onclick="ShowTime()">Time</button>
+            <button onclick="showTime()">Show Time</button>
+
         </div>
 
         <p id="time"></p>
@@ -35,4 +65,5 @@
     <script src="day1.js"></script>
 
 </body>
+
 </html>
