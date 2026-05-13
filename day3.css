@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    transition: 0.5s;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.buttons button{
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.random{
+    background-color: black;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
